@@ -1,0 +1,62 @@
+{
+  "marker": "thrln-marker:da78d346f53acb61",
+  "mode": "scaffold",
+  "architectureVersionId": "c8d87916-6cc0-4b1a-9b9c-267e4dcf7d3f",
+  "architectureVersionNumber": 1,
+  "selectedOption": {
+    "key": "B",
+    "title": "Next.js Server Application",
+    "stack": {
+      "backend": "Next.js server actions and route handlers",
+      "hosting": "Vercel and Supabase free tier",
+      "database": "Supabase PostgreSQL",
+      "frontend": "Next.js with React and TypeScript",
+      "repositoryLayout": "Single Next.js application repository"
+    }
+  },
+  "starter": {
+    "id": "nextjs",
+    "label": "Next.js",
+    "files": [
+      "package.json",
+      "tsconfig.json",
+      "next.config.ts",
+      ".env.example",
+      ".gitignore",
+      "drizzle.config.ts",
+      "src/app/layout.tsx",
+      "src/app/page.tsx",
+      "src/app/api/health/route.ts",
+      "src/db/schema.ts",
+      "src/db/index.ts"
+    ]
+  },
+  "architectureDecisions": [
+    {
+      "displayKey": "ADR-04",
+      "logicalItemId": "36b30660-e07e-4b37-a959-b5d6b41500d6",
+      "itemVersionId": "621133ef-39ee-4d27-b438-0ed03b9a85c7"
+    },
+    {
+      "displayKey": "ADR-05",
+      "logicalItemId": "4f75408e-5ba0-45d7-8469-b8941e22ff71",
+      "itemVersionId": "b9005db4-058c-4840-b35a-1551af2883a5"
+    },
+    {
+      "displayKey": "ADR-03",
+      "logicalItemId": "979b22be-7567-4f75-b840-7df385ea13d7",
+      "itemVersionId": "9c698c12-1acc-4049-8533-63168431a04f"
+    },
+    {
+      "displayKey": "ADR-01",
+      "logicalItemId": "bbedb810-70ea-4436-9266-9a913d607428",
+      "itemVersionId": "0927fab8-fb32-480a-8fe9-0d05b97d2629"
+    },
+    {
+      "displayKey": "ADR-02",
+      "logicalItemId": "cb1ef459-5166-43a2-985a-f5d28107e172",
+      "itemVersionId": "afa29924-bfee-40be-8f99-7a40371a2bb2"
+    }
+  ],
+  "generatedAt": "2026-09-29T03:59:24.495Z"
+}
